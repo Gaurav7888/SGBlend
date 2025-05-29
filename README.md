@@ -2,10 +2,10 @@
 
 ![Teaser Image](static/teaser.png)
 
-[![Conference](https://img.shields.io/badge/NeurIPS-2024-4b44ce.svg)](https://neurips.cc/)
+[![Conference](https://img.shields.io/badge/NeurIPS-2025-4b44ce.svg)](https://neurips.cc/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This repository contains the official implementation for the NeurIPS 2024 paper:
+This repository contains the official implementation for the NeurIPS 2025 paper:
 
 **SG-Blend: Learning an Interpolation Between Improved Swish and GELU for Robust Neural Representations**
 
