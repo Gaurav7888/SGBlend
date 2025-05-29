@@ -56,42 +56,6 @@ model = tf.keras.Sequential([
 ])
 ```
 
-### Reproducing WMT14 Translation Experiment
-
-```bash
-python run_experiment.py \
-  --max_samples 50000 \
-  --epochs 10 \
-  --batch_size 64 \
-  --d_model 128 \
-  --ff_dim 256
-```
-
-### Command Line Options
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `--max_samples` | 50000 | Training samples to use |
-| `--epochs` | 10 | Training epochs |
-| `--batch_size` | 64 | Batch size |
-| `--d_model` | 64 | Transformer embedding dimension |
-| `--ff_dim` | 128 | Feed-forward dimension |
-| `--num_heads` | 2 | Attention heads |
-| `--num_layers` | 2 | Transformer layers |
-
-## Results
-
-### WMT14 English-German Translation Performance
-| Activation | Val Accuracy | BLEU | Dead Neurons (%) | Time/Epoch (s) |
-|------------|--------------|------|------------------|----------------|
-| **SG-Blend** | **0.782** | **0.341** | 1.2% | 142 |
-| GELU | 0.769 | 0.328 | 2.8% | 138 |
-| Swish | 0.773 | 0.332 | 1.8% | 140 |
-| SSwish | 0.778 | 0.337 | 1.5% | 141 |
-| ReLU | 0.758 | 0.312 | 8.4% | 136 |
-
-### Performance Comparison
-![Performance Comparison](results/figures/activation_comparison.png)
-
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
