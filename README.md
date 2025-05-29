@@ -8,6 +8,7 @@
 This repository contains the official implementation for the NeurIPS 2025 paper:
 
 **SG-Blend: Learning an Interpolation Between Improved Swish and GELU for Robust Neural Representations**
+![Gaurav Sarkar](https://www.linkedin.com/in/gauravsarkar7888/), ![Jay Gala](https://www.linkedin.com/in/jaykishorgala/), ![Subarna Tripathi](https://www.linkedin.com/in/subarnatripathi/)
 
 [Project Page]() | [arXiv]() | [Paper]() | [Video]()
 
