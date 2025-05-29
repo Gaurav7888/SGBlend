@@ -92,20 +92,6 @@ python run_experiment.py \
 ### Performance Comparison
 ![Performance Comparison](results/figures/activation_comparison.png)
 
-## Citation
-
-If you use SG-Blend in your research, please cite our paper:
-
-```bibtex
-@inproceedings{author2024sgblend,
-  title={SG-Blend: Learning an Interpolation Between Improved Swish and GELU for Robust Neural Representations},
-  author={Author1, Author2, Author3},
-  booktitle={Advances in Neural Information Processing Systems},
-  volume={37},
-  year={2024}
-}
-```
-
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
