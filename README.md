@@ -45,11 +45,11 @@ python -c "import nltk; nltk.download('punkt')"
 ### Using SG-Blend in Your Model
 
 ```python
-from activations.layers import AdaptiveSSwishGELU
+from activations.layers import SGBlend
 
 model = tf.keras.Sequential([
     tf.keras.layers.Dense(128),
-    AdaptiveSSwishGELU(),  # Our proposed activation
+    SGBlend(),  # Our proposed activation
     tf.keras.layers.Dense(10, activation='softmax')
 ])
 ```
